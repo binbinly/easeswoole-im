@@ -1,0 +1,23 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Pb\\": "Pb/",
+            "GPBMetadata\\": "GPBMetadata/"
+        }
+    },
+    "require": {
+        "easyswoole/easyswoole": "3.x",
+        "easyswoole/mysqli-pool": "^1.0",
+        "easyswoole/socket": "^1.1",
+        "easyswoole/redis": "^1.0",
+        "gumlet/php-image-resize": "^1.9",
+        "easyswoole/rpc": "4.x",
+        "easyswoole/task": "^1.0",
+        "google/protobuf": "^3.10",
+        "grpc/grpc": "^1.22",
+	"yunpian/yunpian-php-sdk" : "~1.0",
+        "sentry/sdk": "^2.0",
+        "sensiolabs/consul-php-sdk": "^3.1"
+    }
+}
